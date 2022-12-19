@@ -7,9 +7,9 @@
  * @param {number} target
  * @return {boolean}
  */
-// nums = [1, 2, 4, 6, 8, 9, 14, 15]; //true 4 + 9
-nums = [1, 2, 5, 6, 8, 9, 14, 15]; //true 5 + 8
-// nums = [1, 2, 3, 6, 8, 9, 14, 15]; //false
+nums = [1, 2, 4, 6, 8, 9, 14, 15]; //true 4 + 9
+nums1 = [1, 2, 5, 6, 8, 9, 14, 15]; //true 5 + 8
+nums2 = [1, 2, 3, 6, 8, 9, 14, 15]; //false
 target = 13;
 var checkForTarget = function(nums, target){
     let left =0;
@@ -33,3 +33,5 @@ var checkForTarget = function(nums, target){
 }
 
 console.log(checkForTarget(nums, target))  // change target number to assess diferrent combos
+console.log(checkForTarget(nums1, target))
+console.log(checkForTarget(nums2, target))
