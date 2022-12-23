@@ -48,7 +48,7 @@ console.log(`Original Expression:`, b)
 var isPalindrome = function(b) {
     b=  b.toLowerCase();
      console.log(`to lowercase:`,b)
-    b= b.replace(/[^0-9a-z]+/gmi,"");
+    b= b.replace(/[^0-9a-z]+/g,"");
     console.log(`removes spaces and symbols:`,b)
 
     let le = 0;

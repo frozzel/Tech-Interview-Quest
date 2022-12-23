@@ -25,7 +25,7 @@ var isSubsequence = function(s, t){
         console.log(`didnt match: "`, s[i],`" first varible & "`, t[j], `" secound varible`)
         j++// if letters are not the same move to next leter in t
     }
-    
+    console.log(i, s.length)
     return i == s.length; /// return the answer once looped through all of s string (or array)
 }
 a = "124";
