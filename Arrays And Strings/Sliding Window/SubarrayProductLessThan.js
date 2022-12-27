@@ -37,3 +37,5 @@ var numSubarrayProductLessThanK = function(nums, k){
 }
 
 console.log(`Answer:`, numSubarrayProductLessThanK(nums, k))
+
+// https://leetcode.com/explore/interview/card/leetcodes-interview-crash-course-data-structures-and-algorithms/703/arraystrings/4502/
