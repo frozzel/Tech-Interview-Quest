@@ -21,3 +21,4 @@
     }
     return res;
     };
+    console.log(commonPrefix())

@@ -16,3 +16,4 @@ var runningSum = function(nums) {
 };
 
 nums = [1,3,5,6]
+console.log(runningSum(nums))

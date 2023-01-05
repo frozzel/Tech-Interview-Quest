@@ -37,3 +37,5 @@ var minStartValue = function(nums) {
     return -minVal +1;
 };
 console.log(minStartValue(nums));
+
+
