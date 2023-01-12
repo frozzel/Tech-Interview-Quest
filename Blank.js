@@ -42,17 +42,7 @@
 // // console.log(LetterChanges("W3R"));
 // console.log(transform("hello*3"));
 
-function SimpleSymbols(str){
-    str = '=' + str + '='
-    for (c in str:){
-        if c.isalpha():
-        if not str[str.index(c)-1] == '+' or not str[str.index(c)+1] == '+':
-            return 'false'
-    }
-        
-}
-    
-    return 'true'
+
     
 // # keep this function call here  
 console.log(SimpleSymbols(str));
