@@ -164,3 +164,47 @@ bmi should equal 20 when it's rounded to the nearest whole number.
 //     return randomPerson + " is going to buy lunch today!";
 // }
 // console.log(whosPaying(names));
+
+// let output = [];
+// let i = 1;
+
+// function fizzBuzz(){
+    
+//     while(i <= 100){
+//         if (i % 3 === 0 && i % 5 === 0){
+//             output.push("fizzBuzz");
+//         }
+//         else if (i % 3 === 0){
+//             output.push("fizz");
+//         } 
+//         else if (i % 5 === 0){
+//             output.push("Buzz");
+           
+//         }  else {
+//             output.push(i);
+           
+//         }
+//          i++;
+            
+//     }
+//     console.log(output)
+// }
+// fizzBuzz();
+
+// var beerWall = function(){
+//     var bottles = 99;
+//     while (bottles >= 0){
+        
+//         if(bottles === 1){
+//             console.log(bottles + " bottle of beer on the wall, " + bottles + " bottle of beer. Take one down and pass it around, no more bottles of beer on the wall.")
+//         }
+//         if(bottles === 0){
+//             console.log("No more bottles of beer on the wall, no more bottles of beer. Go to the store and buy some more, 99 bottles of beer on the wall.")
+//         }  if (bottles > 1){
+//         console.log(bottles + " bottles of beer on the wall, " + bottles + " bottles of beer. Take one down and pass it around, " + (bottles - 1) + " bottles of beer on the wall.");
+//         }
+//         bottles--;
+//     }
+// }
+
+// beerWall();
