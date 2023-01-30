@@ -208,3 +208,29 @@ bmi should equal 20 when it's rounded to the nearest whole number.
 // }
 
 // beerWall();
+
+
+
+///Endless loop of Job applications 🤣	🤣	🤣	🤣	🤣	////////////////////////
+//  function  findJob(){
+//     const experience = 0;
+//     var jobsApplied = 0;
+//     while (jobsApplied < 50){
+//         if (experience >= 5){
+//             console.log("You have been hired!")
+//         } if(experience < 5 && experience >= 2){
+//             console.log("You have not been hired")
+//             experience++;
+//         }
+//         else {
+//             console.log("You will not be hired")
+//             jobsApplied--;
+//         }
+        
+//     }
+    
+// }
+
+// findJob();
+
+
