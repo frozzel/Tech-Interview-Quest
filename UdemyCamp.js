@@ -233,4 +233,41 @@ bmi should equal 20 when it's rounded to the nearest whole number.
 
 // findJob();
 
+//using for loop
+// var beerWall = function(){
+//     for (i =100; i >= 0; i--){
+//         if (i === 1){
+//             console.log(i + " bottle of beer on the wall, " + i + " bottle of beer. Take one down and pass it around, no more bottles of beer on the wall.")
+//         } else if (i === 0){
+//             console.log("No more bottles of beer on the wall, no more bottles of beer. Go to the store and buy some more, 99 bottles of beer on the wall.")
+//         } else {
+//             console.log(i + " bottles of beer on the wall, " + i + " bottles of beer. Take one down and pass it around, " + (i - 1) + " bottles of beer on the wall.");
+//         }
+//     }
+// }
+// console.log(beerWall());
+
+// function fibonacciGenerator(n){
+//     console.log(n);
+//     var output = [];
+//     for( i = 0; i < n; i++){
+//         console.log(i);
+//         if (i === 0){
+//             console.log("i is 0");
+//             output.push(0);
+//             console.log(output);
+//         } else if (i === 1){
+//             console.log("i is 1");
+//             output.push(1);
+//             console.log(output);
+//         } else {
+//             console.log("i is greater than 1");
+//             output.push(output[i-2] + output[i-1]);
+//             console.log(output);
+//         }
+//     }
+//     return output;
+// }
+// console.log(fibonacciGenerator(20));
+
 
